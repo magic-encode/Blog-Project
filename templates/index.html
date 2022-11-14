@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en-US">
+{% load static %}
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://alavion.like-themes.com/xmlrpc.php">
+	<link type="text/css" media="all"
+		href="{% static 'wp-content/cache/autoptimize/css/autoptimize_559b31d22abc04e2b720e366faebfc34.css' %}" rel="stylesheet" />
+	<link type="text/css" media="only screen and (max-width: 768px)"
+		href="{% static 'wp-content/cache/autoptimize/css/autoptimize_dcb2de333eec7ab4ae31385ed8d6a393.css' %}" rel="stylesheet" />
+	<title>Blog Two Columns without Sidebar &#8211; Alavion</title>
+	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+	
+	
+	<link rel='stylesheet' id='lt-colorpicker-font-css'
+		href='http://fonts.googleapis.com/css?family=Open+Sans%7CPlayfair+Display%3A700&amp;ver=1.0#038;subset=latin'
+		type='text/css' media='all' />
+	<link rel='stylesheet' id='lt-colorpicker-font-2-css'
+		href='http://fonts.googleapis.com/css?family=Lato%3A300%7CUbuntu%3A700&amp;ver=1.0#038;subset=latin'
+		type='text/css' media='all' />
+	<link rel='stylesheet' id='dashicons-css' href='{% static 'wp-includes/css/dashicons.min.css' %}' type='text/css' media='all' />
+	<style id='alavion-theme-style-inline-css' type='text/css'>
+		@font-face {
+			font-family: 'alavion-fontello';
+			src: url('{% static 'wp-content/uploads/2018/02/ltx-font.eot%3F1.1.2' %}');
+			src: url('{% static 'wp-content/uploads/2018/02/ltx-font.eot%3F1.1.2' %}') format('embedded-opentype'),
+				url('{% static 'wp-content/uploads/2018/02/ltx-font.woff2%3F1.1.2.html' %}') format('woff2'),
+				url('{% static 'wp-content/uploads/2018/02/ltx-font.woff%3F1.1.2' %}') format('woff'),
+				url('{% static 'wp-content/uploads/2018/02/ltx-font.ttf%3F1.1.2' %}') format('truetype'),
+				url('{% static 'wp-content/uploads/2018/02/ltx-font.svg%3F1.1.2' %}') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		:root {
+			--black: #1E1F2D;
+			--black-darker: #000000;
+			--black-text: rgba(30, 31, 45, .7);
+			--black-light: rgba(30, 31, 45, .2);
+			--gray: #F6F4EF;
+			--gray-lighter: rgba(246, 244, 239, .5);
+			--white: #FFFFFF;
+			--main: #D3C19F;
+			--main-darker: #b5a381;
+			--main-lighter: rgba(211, 193, 159, .5);
+			--red: #AA3F44;
+			--font-main: 'Merriweather';
+			--font-headers: 'Barlow Condensed';
+			--font-subheaders: 'Barlow Condensed';
+		}
+
+		.page-header {
+			background-image: url({% static 'wp-content/uploads/2018/02/inner_header.jpg' %}) !important;
+		}
+
+		.error404 {
+			background-image: url({% static 'wp-content/uploads/2018/02/404_image.jpg' %}) !important;
+		}
+
+		.ltx-footer-wrapper {
+			background-image: url({% static 'wp-content/uploads/2018/02/footer-bg.png' %}) !important;
+		}
+
+		#content-sidebar aside {
+			background-image: url({% static 'wp-content/uploads/2018/02/widgets-bg.png' %}) !important;
+		}
+
+		.go-top:before {
+			background-image: url(../wp-content/uploads/2018/02/go-top.png) !important;
+		}
+
+		#nav-wrapper.navbar-layout-transparent nav.navbar {
+			background-color: rgba(30, 31, 45, 0);
+		}
+
+		#nav-wrapper.navbar-layout-transparent nav.navbar.darkest {
+			background-color: rgba(30, 31, 45, 0.95);
+		}
+
+		nav.navbar .logo img {
+			max-height: 58px !important;
+		}
+	</style>
+	<link rel='stylesheet' id='alavion-google-fonts-css'
+		href='http://fonts.googleapis.com/css?family=Merriweather:400%7CBarlow+Condensed:700&amp;subset=latin-ext,latin'
+		type='text/css' media='all' />
+	<link rel='stylesheet' id='alavion-fontello-css'
+		href='{% static 'wp-content/cache/autoptimize/css/autoptimize_single_e214eafde20fe36b6122924d5b590988.css' %}'
+		type='text/css' media='all' />
+	<script type='text/javascript' src='{% static 'wp-includes/js/jquery/jquery.js' %}'></script>
+	<link rel='https://api.w.org/' href='{% static 'wp-json/index.html' %}' />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://alavion.like-themes.com/xmlrpc.php?rsd" />
+	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="{% static 'wp-includes/wlwmanifest.xml' %}" />
+	<meta name="generator" content="WordPress 5.1.15" />
+	<meta name="generator" content="WooCommerce 3.5.10" />
+
+	<link rel="alternate" type="application/json+oembed"
+		href="{% static 'wp-json/oembed/1.0/embed%3Furl=http:%252F%252Falavion.like-themes.com%252Fblog-two-columns-without-sidebar%252F' %}" />
+	<link rel="alternate" type="text/xml+oembed"
+		href="{% static 'wp-json/oembed/1.0/embed%3Furl=http:%252F%252Falavion.like-themes.com%252Fblog-two-columns-without-sidebar%252F&amp;format=xml' %}" />
+	<noscript>
+		<style>
+			.woocommerce-product-gallery {
+				opacity: 1 !important;
+			}
+		</style>
+	</noscript>
+	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+	<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://alavion.like-themes.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
+	<link rel="icon" href="../wp-content/uploads/2018/02/cropped-favicon-2-48x48.png" sizes="32x32" />
+	<link rel="icon" href="{% static 'wp-content/uploads/2018/02/cropped-favicon-2-300x300.png' %}" sizes="192x192" />
+	<link rel="apple-touch-icon-precomposed" href="{% static 'wp-content/uploads/2018/02/cropped-favicon-2-300x300.png' %}" />
+	<meta name="msapplication-TileImage"
+		content="http://alavion.like-themes.com/wp-content/uploads/2018/02/cropped-favicon-2-300x300.png" /> <noscript>
+		<style type="text/css">
+			.wpb_animate_when_almost_visible {
+				opacity: 1;
+			}
+		</style>
+	</noscript>
+</head>
+
+<body
+	class="page-template page-template-page-templates page-template-blog page-template-page-templatesblog-php page page-id-21 woocommerce-no-js full-width singular ltx-bg-404 paceloader-enabled no-sidebar wpb-js-composer js-comp-ver-5.7 vc_responsive">
+	
+	<div class="ltx-content-wrapper ">
+		<div  class="header-wrapper  header-h1   header-parallax   hasBreadcrumbs  wrapper-navbar-layout-white ltx-pageheader-default">
+			<div id="nav-wrapper" class="navbar-layout-white">
+				<nav class="navbar" data-spy="" data-offset-top="0">
+					<div class="container">
+						<div class="navbar-logo "> <a class="logo" href="{% url 'home' %}"><img
+									src="{% static 'wp-content/uploads/2018/02/logo_1x_black.png' %}" alt="Alavion"
+									srcset="{% static 'wp-content/uploads/2018/02/logo_1x_black.png' %} 1x,{% static 'wp-content/uploads/2018/02/logo_2x_black.png' %} 2x"></a>
+						</div>
+						<div id="navbar" class="navbar-collapse collapse navbar-mobile-white"
+							data-mobile-screen-width="1198">
+							<div class="toggle-wrap"> <a class="logo" href="{% url 'home' %}"><img
+										src="{% static 'wp-content/uploads/2018/02/logo_1x_black.png' %}" alt="Alavion"
+										srcset="{% static 'wp-content/uploads/2018/02/logo_1x_black.png' %} 1x,{% static 'wp-content/uploads/2018/02/logo_2x_black.png' %} 2x"></a>
+								<button type="button" class="navbar-toggle collapsed"> <span
+										class="close">&times;</span> </button>
+								<div class="clearfix"></div>
+							</div>
+							<ul id="menu-main-menu" class="nav navbar-nav">
+								<li id="menu-item-8571"
+									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8571">
+									<a href="{% url 'home' %}"><span>Home</span></a>
+									
+								</li>
+								
+								<li id="menu-item-46"
+									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"><a
+										href="{% url 'contact' %}"><span>Contacts</span></a></li>
+							</ul>
+							<div class="ltx-navbar-icons">
+								<ul>
+									<li
+										class="ltx-fa-icon ltx-nav-profile menu-item-has-children  hidden-sm hidden-ms hidden-xs">
+										<a href="{% url 'profile' %}"><span class="fa icon icon-avatar"></span>
+										</a></li>
+									
+								</ul>
+							</div>
+							<div class="mobile-controls">
+								<div>
+									<ul>
+										<li class="ltx-fa-icon ltx-nav-profile menu-item-has-children "> <a
+												href="{% url 'profile' %}"><span
+													class="fa icon icon-avatar"></span> </a></li>
+										<li class="ltx-fa-icon ltx-nav-cart ">
+											<div class="cart-navbar"> <a href="#"
+													class="ltx-cart cart shop_table"
+													title="View your shopping cart"><span
+														class="cart-contents header-cart-count count">0</span><i
+														class="fa icon icon-shopping-cart" aria-hidden="true"></i> </a>
+											</div>
+										</li>
+										<li class="ltx-fa-icon ltx-nav-search  ">
+											<div class="top-search"> <a href="../index.html%3Fp=21.html#"
+													id="top-search-ico-mobile"
+													class="top-search-ico icon icon-magnifying-glass"
+													aria-hidden="true"></a> <input placeholder="Search" value=""
+													type="text"></div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="navbar-controls"> <button type="button" class="navbar-toggle collapsed"> <span
+									class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span
+									class="icon-bar bottom-bar"></span> </button></div>
+					</div>
+				</nav>
+			</div>
+		</div>
+		{% block content %}
+			<header class="page-header ltx-parallax">
+				<div class="container">
+					<h1>Blog Last News</h1>
+					<ul class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+						<li class="home"><span property="itemListElement" typeof="ListItem"><a property="item"
+									typeof="WebPage" title="Go to Home." href="{% url 'home' %}" class="home"><span
+										property="name">Home</span></a>
+								<meta property="position" content="1">
+							</span></li>
+						<li class="post post-page current-item"><span property="itemListElement" typeof="ListItem"><span
+									property="name">Blog</span>
+								<meta property="position" content="2">
+							</span></li>
+					</ul>
+				</div>
+			</header>
+		<div class="container main-wrapper">
+			<div class="inner-page margin-default">
+				<div class="row centered">
+					<div class="col-lg-12 col-xs-12 ltx-blog-wrap">
+						<div class="blog blog-block layout-two-cols">
+							<div class="row masonry">
+								<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 item div-thumbnail">
+									<article id="post-6614"
+										class="post-6614 post type-post status-publish format-standard has-post-thumbnail hentry category-transfers tag-aviation tag-flights tag-pilot tag-private">
+										<a href="{% url 'blog_' %}" class="photo"><img width="1120"
+												height="720" src="{% static 'wp-content/uploads/2018/02/blog_01-1120x720.jpg' %}"
+												class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+												alt="" /></a>
+										<div class="description">
+											<div class="ltx-post-headline"><a href="{% url 'blog_' %}"
+													class="ltx-date"><span class="dt">January 12, 2019</span></a><span
+													class="i">|</span> <span class="icon-fav"> <span
+														class="fa fa-eye"></span><i>1</i> </span><span
+													class="icon-comments"><span class="fa fa-commenting"></span><a
+														href="{% url 'blog_' %}">1</a></span></div> <a
+												href="{% url 'blog_' %}" class="header">
+												<h3>Turkish Airlines transported more than 800 thousand passengers on
+													Turkish flights</h3>
+											</a>
+											<div class="text text-page">
+												<p>Integer maximus accumsan nunc, sit amet tempor lectus facilisis eu.
+													Cras vel elit felis. Vestibulum convallis ipsum id a &#8230;</p>
+											</div>
+										</div>
+									</article>
+								</div>
+								
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<nav class="navigation paging-navigation">
+							<h3 class="screen-reader-text">Posts navigation</h3>
+							<div class="pagination loop-pagination"> <a href="../index.html%3Fp=21.html#"
+									class="prev page-numbers disabled"></a><span class='page-numbers current'>1</span>
+								<a class='page-numbers' href='page/2/index.html'>2</a> <a class="next page-numbers"
+									href="page/2/index.html"></a></div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% endblock %}
+	<div class="ltx-footer-wrapper">
+		<div class="subscribe-wrapper">
+			<div class="container">
+				<div class="subscribe-block">
+					<section class="vc_section text-align-center">
+						<div class="vc_row wpb_row vc_row-fluid">
+							<div class="wpb_column vc_column_container vc_col-sm-12">
+								<div class="vc_column-inner">
+									<div class="wpb_wrapper">
+										<div class="wpb_text_column wpb_content_element ">
+											<div class="wpb_wrapper">
+												<div class="heading header-subheader color-white subcolor-main">
+													<h6 class="subheader">Want to know about our offers first?</h6>
+													<h5 class="header">Subscribe our newsletter</h5>
+												</div>
+												<form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-806" method="post"
+													data-id="806" data-name="Subscribe Form">
+													<div class="mc4wp-form-fields">
+														<div class="input-group"> <input type="email" name="EMAIL"
+																placeholder="Your email ..." required /> <span
+																class="input-group-append"> <button
+																	class="btn btn-main color-hover-gray"
+																	type="submit">Subscribe</button> </span></div>
+													</div><label style="display: none !important;">Leave this field
+														empty if you're human: <input type="text" name="_mc4wp_honeypot"
+															value="" tabindex="-1" autocomplete="off" /></label><input
+														type="hidden" name="_mc4wp_timestamp"
+														value="1667830491" /><input type="hidden" name="_mc4wp_form_id"
+														value="806" /><input type="hidden" name="_mc4wp_form_element_id"
+														value="mc4wp-form-1" />
+													<div class="mc4wp-response"></div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<section id="ltx-widgets-footer" class="ltx-fw">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-align-center    clearfix">
+						<div class="footer-widget-area"> <a class="logo" href="../index.html"><img
+									src="{% static 'wp-content/uploads/2018/02/logo_1x_white.png' %}" alt="Alavion"
+									srcset="{% static 'wp-content/uploads/2018/02/logo_1x_white.png' %} 1x,{% static 'wp-content/uploads/2018/02/logo_2x_white.png' %} 2x"></a>
+							<div id="text-14" class="widget widget_text">
+								<div class="textwidget">
+									<p><br /> Etiam consequat sem ullamcorper, euismod metus sit amet, tristique justo.
+										Vestibulum mattis, nisi ut faucibus commodo, risus ex commodo.</p>
+								</div>
+							</div>
+							<div class="ltx-social ltx-nav-second ltx-type-">
+								<ul>
+									<li><a href="#" target="_self"><span
+												class="fa fa-twitter"></span></a></li>
+									<li><a href="#" target="_self"><span
+												class="fa fa-facebook-f"></span></a></li>
+									<li><a href="#" target="_self"><span
+												class="fa fa-instagram"></span></a></li>
+									<li><a href="#" target="_self"><span
+												class="fa fa-google-plus"></span></a></li>
+								</ul>
+							</div>
+							<div id="text-15" class="widget widget_text">
+								<div class="textwidget"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="copyright-block copyright-layout-">
+			<div class="container">
+				<p>© All Rights Reserved - 2019 </p>
+					
+			</div>
+		</footer>
+	</div> 
+		<a href="#" class="ltx-go-top floating">
+			<img width="20" height="19" src="{% static 'wp-content/uploads/2018/02/go-top.png' %}" class="attachment-full size-full" alt="" />
+			
+			<span>Go Top</span>
+			
+		</a>
+	
+	<script type='text/javascript' src='http://alavion.like-themes.com/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js'></script>
+	<script type="text/javascript" defer
+		src="{% static 'wp-content/cache/autoptimize/js/autoptimize_d178528b42e1ae08a46f9a1917cec331.js' %}"></script>
+</body>
+
+</html>

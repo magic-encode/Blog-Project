@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="ltx-font" horiz-adv-x="1000" >
+<font-face font-family="ltx-font" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="next" unicode="&#xe800;" d="M673 691c-13 14-36 14-50 0-14-14-14-36 0-50l256-255h-844c-19 0-35-16-35-36 0-19 16-35 35-35h844l-256-256c-14-14-14-36 0-50 14-14 37-14 50 0l316 316c15 14 15 36 0 50l-316 316z" horiz-adv-x="1000" />
+
+<glyph glyph-name="avatar" unicode="&#xe80a;" d="M954 99c-49 88-152 144-155 145l-137 82c68 51 110 132 110 218 0 149-122 272-271 272s-272-123-272-272c0-86 42-167 110-218l-136-81c-4-2-107-58-157-146-29-53-46-122-46-194v-21h1000v21c0 72-16 141-46 194z m-453-174h-458c3 77 26 129 40 154 43 76 139 128 141 130l195 117-31 17c-72 41-117 118-117 201 0 127 103 230 230 230 126 0 229-103 229-230 0-82-44-160-117-201l-31-17 196-118c1-1 97-52 140-129 14-26 37-77 40-154h-457z" horiz-adv-x="1000" />
+
+<glyph glyph-name="magnifying-glass" unicode="&#xe813;" d="M991-99l-243 243c65 75 105 173 105 280 0 235-191 426-426 426-236 0-427-191-427-426s192-427 427-427c106 0 204 40 279 105l243-243c6-6 14-9 21-9s16 3 21 9c12 11 12 30 0 42z m-931 523c0 202 164 366 366 366 203 0 367-164 367-366s-164-367-367-367c-202 0-366 164-366 367z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
