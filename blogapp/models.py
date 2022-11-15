@@ -2,7 +2,6 @@ from django.db import models
 from django.contrib.auth.models import User
 
 
-
 class Blog(models.Model):
     image_1 = models.ImageField()
     image_2 = models.ImageField()
@@ -14,10 +13,11 @@ class Blog(models.Model):
     title_3 = models.CharField(max_length=200)
     description_3 = models.TextField(null=True, blank=True)
     created = models.DateTimeField(auto_now_add=True)
-    
+
+
 class Catagory(models.Model):
     catagory = models.CharField(max_length=250)
-    
+
 
 class Comments(models.Model):
     item = models.ForeignKey(
